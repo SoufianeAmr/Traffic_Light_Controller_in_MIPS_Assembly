@@ -150,7 +150,7 @@ continue_cycle:
     lw $t1, cycle_count
     addi $t1, $t1, 1
     sw $t1, cycle_count
-    li $t2, 5
+    li $t2, 2
     beq $t1, $t2, end_simulation
     j traffic_cycle
 
@@ -183,7 +183,7 @@ delay_outer:
     syscall
 
     li $t3, 1
-    sll $t3, $t3, 20
+    sll $t3, $t3, 21
 
 delay_inner:
     addi $t3, $t3, -1
