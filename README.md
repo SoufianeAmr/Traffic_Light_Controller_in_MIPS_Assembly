@@ -1,5 +1,4 @@
-# CS2253-PROJECT
-
+Traffic Light Controller in MIPS Assembly
 ## Brief About My Task
 
 I extended the basic traffic light simulation by adding key features to enhance safety, interactivity, and realism:
